@@ -18,5 +18,6 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  
+  var total=document.querySelectorAll('#grand-node div')
+  return total[tota.length-1]
 }
