@@ -17,6 +17,13 @@ function nestedTarget(){
 //   }
 // }
 
+function increaseRankBy(n){
+    var cows=document.querySelectorAll('.ranked-list li')
+    for (var i=0;i<cows.length;i++){
+        cows[i].innerHTML=parseInt(cows[i].innerHTML)+x;
+    }
+}
+
 function deepestChild(){
   var total=document.querySelectorAll('#grand-node div')
   return total[total.length-1]
